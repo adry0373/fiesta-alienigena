@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(9, 2, 69);
+    color: antiquewhite;
+}
+.container{
+background-image: url(fondo.jpg);
+background-size: cover;
+padding: 30px;
+}
+
+h1{
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: blue;
+}
+h3, h2{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+
+#creditos{
+    margin-bottom: 5px;
+}

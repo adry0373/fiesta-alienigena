@@ -1,0 +1,53 @@
+
+<html>
+  <head>
+    <title>Aplicación de identificación de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <!--Agrega una fuente personalizaa para el titulo-->
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+      <center>
+         <!---->
+        <h1>Fiesta alienigena</h1>
+        <p>Nota: Haz diferentes sonidos como aplausos, chasquidos o campanas para ahcer bailar a los aliens</p>
+        <div class="container">
+          <br><br>
+          <button class=" btn btn-primary
+          " onclick="reconocer()">Comenzar</button>
+          <br><br>
+          <h2 id="resultado">Esucho - <span id="sonido"></span></h2>
+          <h3 id="presicion">Presición - <span id="porcentaje"></span></h3>
+          <img id="img1" src="aliens-01.png" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <img id="img2" src="aliens-02.png" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <img id="img3" src="aliens-03.png" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <img id="img4" src="aliens-04.png" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <br><br>
+
+        </div>
+        <div id="creditos">
+          Elaborado por Miss Adriana
+        </div>
+       
+
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
